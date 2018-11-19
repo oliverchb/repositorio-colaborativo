@@ -210,7 +210,7 @@ article#Lecturas{
   text-align: center;
   float: center;
   width: 50%;
-  margin-left: 280px;
+  margin-left: 300px;
 }
 
 #Lecturas h3{
@@ -259,38 +259,31 @@ ul#Multimedia li{
 /* videos */
 article#videos{
     margin-top: 200px;
+    align: center;
 }
 
 
 /* Autores */
-ul#Autores li{
-    padding: 5px;
-    padding-top: 90px;
-    margin-top: 200px;
+article#Autores {
+    font-size: 20px;
+    font-family: Times;
+    padding: 40px;
+    text-align: center;
+    margin-top: auto;
+    float: center
 }
 
 
-#Autores h3{
-  font-size: 35px;
-  font-family: Times;
-  color: #333333;
-}
-
-
-#Autores p{
-  float: center;
-  font-size: 20px;
-  font-family: Times;
-  color: #333333;
-}
-
-
-/* footer o pie de pagina */
+/* PIE DE PAGINA */
 footer{
-  padding: 20px;
-  margin-top: 20px;
-  color: #F47920;
-  background-color: #005883;
-  text-align: center;
-  margin-top: 50px;
+   width: 100%;
+   background: #005883;
+   margin-top: 0 auto;
+   border-radius: 0 0 20px 20px;
+   color: #F0B429;
+   text-align: center;
+   padding: 30px;
+   box-sizing: border-box;
+   font-family: Times;
+   font-size: 18px;
 }
